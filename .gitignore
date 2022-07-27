@@ -1,0 +1,5 @@
+/.vscode
+/services/v1/api/collect/get_test.go
+/docs
+/build/development/v1/main
+/build/development/v1/deployment.zip
