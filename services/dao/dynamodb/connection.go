@@ -1,0 +1,4 @@
+package dynamodb
+
+func get() {
+}

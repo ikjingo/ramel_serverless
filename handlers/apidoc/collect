@@ -1,0 +1,25 @@
+/**
+ * @api {get} https://api.collectpage.net/v1/api/service/collect/v1/users/:user_id/collect Collect List
+ * @apiName List
+ * @apiGroup Collect
+ *
+ * @apiParam (Query Parameter) {String} user_id Users unique ID.
+ *
+ */
+/**
+ * @api {post} https://api.collectpage.net/v1/api/service/collect/v1/users/:user_id/collect Collect Create
+ * @apiName Create
+ * @apiGroup Collect
+ *
+ * @apiParam (Query Parameter) {String} user_id Users unique ID.
+ * @apiParam (Body) {String} url Site URL
+ *
+ */
+/**
+ * @api {delete} https://api.collectpage.net/v1/api/service/collect/users/:user_id/collect Collect Delete
+ * @apiName Delete
+ * @apiGroup Collect
+ *
+ * @apiParam (Query Parameter) {String} user_id Users unique ID.
+ *
+ */
