@@ -1,0 +1,2 @@
+post-collect ramel-collectpage/handlers/v1/collect/post serverless-APIPostFunction-collect
+get-collect ramel-collectpage/handlers/v1/collect/get serverless-APIGetFunction-collect
