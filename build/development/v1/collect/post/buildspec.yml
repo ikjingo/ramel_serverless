@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      golang: 1.18
+  build:
+    commands:
+      - echo Building the Go code...
+      - cd ramel-collectpage/handlers/v1/collect/get
+      - go build main.go
+artifacts:
+  secondary-artifacts:
+    golang_artifacts:
+      base-directory: ramel-collectpage/handlers/v1/collect/get
+      files:
+        - main
