@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - serverless-APIGetFunction-collect:
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: "serverless-APIGETFunction-collect"
+        Alias: "develop"
+        CurrentVersion: "1"
+        TargetVersion: "1"
