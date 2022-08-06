@@ -3,7 +3,7 @@ Resources:
   - serverless-APIGetFunction-collect:
       Type: AWS::Lambda::Function
       Properties:
-        Name: "serverless-APIPOSTFunction-collect"
+        Name: "serverless-APIPostFunction-collect"
         Alias: "develop"
         CurrentVersion: "1"
         TargetVersion: "1"

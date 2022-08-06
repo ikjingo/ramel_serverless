@@ -9,8 +9,6 @@ phases:
       - echo Building the Go code...
       - cd handlers/v1/collect/post
       - go build main.go
-      - cd handlers/v1/collect/get
-      - go build main.go
 artifacts:
   files:
     - '**/*'
